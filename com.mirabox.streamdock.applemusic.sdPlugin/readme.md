@@ -1,15 +1,29 @@
-# Stream Dock Documentation
+# Apple Music Plugin for Mirabox HotSpot StreamDock
 
-For details, please see
+Control Apple Music directly from your [Mirabox HotSpot StreamDock](https://www.mirabox.com/) device.
 
-[https://sdk.key123.vip/guide/events-received.html](https://sdk.key123.vip/en/guide/events-received.html)
+## Features
 
-[https://sdk.key123.vip/guide/events-sent.html](https://sdk.key123.vip/en/guide/events-sent.html)
+- **Now Playing** — shows album art, track title, and artist on the button; press to focus Apple Music
+- **Play / Pause** — toggle playback
+- **Next / Previous Track** — skip tracks
+- **Shuffle** — toggle shuffle on/off (dimmed with slash when off)
+- **Repeat** — cycle through off / repeat all / repeat one (dimmed with slash when off)
+- **Volume** — adjust system volume
 
-## Precautions
+## Requirements
 
-Windows: The software version needs to be `3.10.188.226` or above. Starting from `3.10.188.226`, the software has a built-in node module, and the built-in node version is `20.8.1`. Set Version in manifest to `20`. Other versions are not built-in yet. 
+- macOS 10.15 or later
+- Apple Music (Music.app)
+- Mirabox HotSpot StreamDock with software version `3.10.189` or later
 
-Mac: `3.10.189.0313` is not built-in yet, and you need to wait for the next version
+## Installation
 
-[manifest#nodejs](https://sdk.key123.vip/en/guide/manifest.html#nodejs)
+1. Clone or download this repo
+2. Copy `com.mirabox.streamdock.applemusic.sdPlugin` into your StreamDock plugins folder
+3. Restart the StreamDock software
+4. Drag the Apple Music actions onto your device buttons
+
+## Development
+
+The plugin backend runs as a Node.js process (`plugin/index.js`) and communicates with the StreamDock software via WebSocket. Apple Music is controlled via AppleScript using `osascript`.

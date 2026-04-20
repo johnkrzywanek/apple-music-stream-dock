@@ -1,0 +1,1 @@
+com.mirabox.streamdock.applemusic.sdPlugin/readme.md
