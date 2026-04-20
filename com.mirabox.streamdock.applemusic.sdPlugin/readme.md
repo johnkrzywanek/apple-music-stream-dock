@@ -1,6 +1,6 @@
-# Apple Music Plugin for Mirabox HotSpot StreamDock
+# Apple Music Plugin for Mirabox StreamDock
 
-Control Apple Music directly from your [Mirabox HotSpot StreamDock](https://www.mirabox.com/) device.
+Control Apple Music directly from your [Mirabox Stream Dock](https://space.key123.vip/home/) (or a similar clone) device.
 
 ## Features
 
@@ -8,7 +8,7 @@ Control Apple Music directly from your [Mirabox HotSpot StreamDock](https://www.
 - **Play / Pause** — toggle playback
 - **Next / Previous Track** — skip tracks
 - **Shuffle** — toggle shuffle on/off
-- **Repeat** — cycle through off / repeat all / repeat one 
+- **Repeat** — cycle through off / repeat all / repeat one
 - **Volume** — adjust volume via knob
 
 ## Requirements
