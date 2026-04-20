@@ -7,9 +7,9 @@ Control Apple Music directly from your [Mirabox HotSpot StreamDock](https://www.
 - **Now Playing** — shows album art, track title, and artist on the button; press to focus Apple Music
 - **Play / Pause** — toggle playback
 - **Next / Previous Track** — skip tracks
-- **Shuffle** — toggle shuffle on/off (dimmed with slash when off)
-- **Repeat** — cycle through off / repeat all / repeat one (dimmed with slash when off)
-- **Volume** — adjust system volume
+- **Shuffle** — toggle shuffle on/off
+- **Repeat** — cycle through off / repeat all / repeat one 
+- **Volume** — adjust volume via knob
 
 ## Requirements
 
