@@ -1,0 +1,19 @@
+{
+  "Name": "Apple Music",
+  "Description": "Control Apple Music playback and volume from Stream Dock",
+  "Category": "Apple Music",
+  "Localization": {
+    "Playback Device": "Playback Device",
+    "Loading...": "Loading...",
+    "Time Display": "Time Display",
+    "Time Remaining": "Time Remaining",
+    "Time Elapsed": "Time Elapsed",
+    "Show Title": "Show Title",
+    "Display Format": "Display Format",
+    "Title": "Title",
+    "Title - Artist": "Title - Artist",
+    "Artist": "Artist",
+    "Artist - Title": "Artist - Title",
+    "Logout": "Logout"
+  }
+}

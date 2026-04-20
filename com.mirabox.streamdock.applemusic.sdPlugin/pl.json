@@ -1,0 +1,19 @@
+{
+  "Name": "Apple Music",
+  "Description": "Steruj Apple Music przez Stream Dock",
+  "Category": "Muzyka",
+  "Localization": {
+    "Playback Device": "Urządzenie odtwarzania",
+    "Loading...": "Ładowanie...",
+    "Time Display": "Wyświetlanie czasu",
+    "Time Remaining": "Pozostały czas",
+    "Time Elapsed": "Upłynął czas",
+    "Show Title": "Pokaż tytuł",
+    "Display Format": "Format wyświetlania",
+    "Title": "Tytuł",
+    "Title - Artist": "Tytuł - Wykonawca",
+    "Artist": "Wykonawca",
+    "Artist - Title": "Wykonawca - Tytuł",
+    "Logout": "Wyloguj"
+  }
+}

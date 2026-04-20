@@ -1,0 +1,19 @@
+{
+  "Name": "Apple Music",
+  "Description": "Управление Apple Music через Stream Dock",
+  "Category": "Музыка",
+  "Localization": {
+    "Playback Device": "Устройство воспроизведения",
+    "Loading...": "Загрузка...",
+    "Time Display": "Отображение времени",
+    "Time Remaining": "Оставшееся время",
+    "Time Elapsed": "Прошедшее время",
+    "Show Title": "Показать заголовок",
+    "Display Format": "Формат отображения",
+    "Title": "Заголовок",
+    "Title - Artist": "Заголовок - Исполнитель",
+    "Artist": "Исполнитель",
+    "Artist - Title": "Исполнитель - Заголовок",
+    "Logout": "Выйти"
+  }
+}

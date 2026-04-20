@@ -1,0 +1,146 @@
+{
+  "Actions": [
+    {
+      "Icon": "static/play.svg",
+      "Name": "Play",
+      "Tooltip": "Play/Pause Apple Music",
+      "UUID": "com.mirabox.streamdock.applemusic.play",
+      "PropertyInspectorPath": "propertyInspector/playback/index.html",
+      "States": [
+        {
+          "Image": "static/play.svg",
+          "TitleAlignment": "bottom",
+          "FontSize": "12",
+          "Title": "Play"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "ShortTitle": "Play"
+    },
+    {
+      "Icon": "static/next.svg",
+      "Name": "Next Track",
+      "Tooltip": "Skip to next track in Apple Music",
+      "UUID": "com.mirabox.streamdock.applemusic.next",
+      "PropertyInspectorPath": "propertyInspector/playback/index.html",
+      "States": [
+        {
+          "Image": "static/next.svg",
+          "TitleAlignment": "bottom",
+          "FontSize": "12",
+          "Title": "Next"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "ShortTitle": "Next"
+    },
+    {
+      "Icon": "static/previous.svg",
+      "Name": "Previous Track",
+      "Tooltip": "Go to previous track in Apple Music",
+      "UUID": "com.mirabox.streamdock.applemusic.previous",
+      "PropertyInspectorPath": "propertyInspector/playback/index.html",
+      "States": [
+        {
+          "Image": "static/previous.svg",
+          "TitleAlignment": "bottom",
+          "FontSize": "12",
+          "Title": "Prev"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "ShortTitle": "Prev"
+    },
+    {
+      "Icon": "static/shuffle.svg",
+      "Name": "Shuffle",
+      "Tooltip": "Toggle shuffle mode in Apple Music",
+      "UUID": "com.mirabox.streamdock.applemusic.shuffle",
+      "PropertyInspectorPath": "propertyInspector/playback/index.html",
+      "States": [
+        {
+          "Image": "static/shuffle.svg",
+          "TitleAlignment": "bottom",
+          "FontSize": "12",
+          "Title": "Shuffle"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "ShortTitle": "Shuffle"
+    },
+    {
+      "Icon": "static/repeat.svg",
+      "Name": "Repeat",
+      "Tooltip": "Toggle repeat mode in Apple Music",
+      "UUID": "com.mirabox.streamdock.applemusic.repeat",
+      "PropertyInspectorPath": "propertyInspector/playback/index.html",
+      "States": [
+        {
+          "Image": "static/repeat.svg",
+          "TitleAlignment": "bottom",
+          "FontSize": "12",
+          "Title": "Repeat"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "ShortTitle": "Repeat"
+    },
+    {
+      "Icon": "static/album-art.svg",
+      "Name": "Now Playing",
+      "Tooltip": "Display current Apple Music playback info",
+      "UUID": "com.mirabox.streamdock.applemusic.nowplaying",
+      "PropertyInspectorPath": "propertyInspector/nowplaying/index.html",
+      "States": [
+        {
+          "Image": "static/album-art.svg",
+          "TitleAlignment": "bottom",
+          "FontSize": "10",
+          "Title": "Now Playing"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "ShortTitle": "Now Playing"
+    },
+    {
+      "Icon": "static/volume-up.svg",
+      "Name": "Volume Knob",
+      "Tooltip": "Control Apple Music volume with dial",
+      "UUID": "com.mirabox.streamdock.applemusic.volume",
+      "PropertyInspectorPath": "propertyInspector/volume/index.html",
+      "States": [
+        {
+          "Image": "static/volume-up.svg",
+          "TitleAlignment": "bottom",
+          "FontSize": "10",
+          "Title": "Volume"
+        }
+      ],
+      "Controllers": ["Knob"],
+      "SupportedInMultiActions": false,
+      "ShortTitle": "Volume"
+    }
+  ],
+  "SDKVersion": 1,
+  "Author": "John Krzywanek",
+  "Name": "Apple Music",
+  "Icon": "static/App-logo.png",
+  "CodePath": "plugin/index.js",
+  "Description": "Control Apple Music playback and volume from Stream Dock",
+  "Category": "Apple Music",
+  "CategoryIcon": "static/App-logo.png",
+  "Version": "1.0.0",
+  "URL": "https://github.com/johnkrzywanek/apple-music-stream-dock",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "2.10.179.426"
+  },
+  "Nodejs": {
+    "Version": "20"
+  }
+}
